@@ -1,0 +1,7 @@
+{
+  "name": "@bottom-sticky-scrollbar/demo",
+  "private": true,
+  "dependencies": {
+    "@bottom-sticky-scrollbar/core": "*"
+  }
+}

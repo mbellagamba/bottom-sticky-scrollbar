@@ -1,0 +1,11 @@
+{
+  "name": "@bottom-sticky-scrollbar/react",
+  "description": "An horizontal scrollbar for large elements that sticks at the bottom of the screen",
+  "version": "0.0.1",
+  "dependencies": {
+    "@bottom-sticky-scrollbar/core": "*"
+  },
+  "peerDependencies": {
+    "react": "16.8.x || 17.x || 18.x"
+  }
+}
