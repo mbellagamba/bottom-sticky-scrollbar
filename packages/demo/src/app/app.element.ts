@@ -1,6 +1,6 @@
 import './app.element.css';
 import { data } from './data';
-import { mountStickyScrollbar } from '@bottom-sticky-scrollbar/core';
+import { mountStickyScrollbar } from 'sticky-scrollbar';
 
 export class AppElement extends HTMLElement {
   public static observedAttributes = [];

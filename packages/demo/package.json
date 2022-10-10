@@ -1,7 +1,7 @@
 {
-  "name": "@bottom-sticky-scrollbar/demo",
+  "name": "sticky-scrollbar-demo",
   "private": true,
   "dependencies": {
-    "@bottom-sticky-scrollbar/core": "*"
+    "sticky-scrollbar": "*"
   }
 }

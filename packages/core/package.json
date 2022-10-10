@@ -1,8 +1,9 @@
 {
-  "name": "@bottom-sticky-scrollbar/core",
+  "name": "sticky-scrollbar",
   "description": "An horizontal scrollbar for large elements that sticks at the bottom of the screen",
   "version": "0.0.1",
   "author": "Mirco Bellagamba",
+  "license": "ISC",
   "scripts": {},
   "repository": {
     "directory": "packages/core",

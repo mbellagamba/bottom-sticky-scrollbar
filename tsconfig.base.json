@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bottom-sticky-scrollbar/core": ["packages/core/src/index.ts"],
-      "@bottom-sticky-scrollbar/react": ["packages/react/src/index.ts"]
+      "sticky-scrollbar": ["packages/core/src/index.ts"],
+      "react-sticky-scrollbar": ["packages/react/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

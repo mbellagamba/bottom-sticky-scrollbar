@@ -7,7 +7,7 @@ It is a widget that creates a horizontal scrollbar that snaps to the bottom of t
 Install the package with npm (or your package manager):
 
 ```
-npm i @bottom-sticky-scrollbar/react
+npm i react-sticky-scrollbar
 ```
 
 ### Usage
@@ -16,7 +16,7 @@ The React package expose an handy hook.
 
 ```tsx
 import * as React from 'react';
-import { useBottomStickyScrollbar } from '@bottom-sticky-scrollbar/react';
+import { useBottomStickyScrollbar } from 'react-sticky-scrollbar';
 
 function LargeTable() {
   const containerRef = React.useRef<HTMLDivElement>();

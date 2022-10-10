@@ -14,8 +14,8 @@ It is a widget that creates a horizontal scrollbar that snaps to the bottom of t
 
 The bottom sticky scrollbar supports these frameworks:
 
-- JavaScript (no framework): [@bottom-sticky-scrollbar/core](#core)
-- React: [@bottom-sticky-scrollbar/react](#react)
+- JavaScript (no framework): [sticky-scrollbar](#core)
+- React: [react-sticky-scrollbar](#react)
 
 However, the core package can be easily extended to support any framework.
 
@@ -26,7 +26,7 @@ However, the core package can be easily extended to support any framework.
 Install the package with npm (or your package manager):
 
 ```
-npm i @bottom-sticky-scrollbar/core
+npm i sticky-scrollbar
 ```
 
 ### Usage
@@ -34,7 +34,7 @@ npm i @bottom-sticky-scrollbar/core
 Import and mount the component
 
 ```js
-import { mountStickyScrollbar } from '@bottom-sticky-scrollbar/core';
+import { mountStickyScrollbar } from 'sticky-scrollbar';
 
 /*
  Given this HTML
@@ -58,7 +58,7 @@ unmount();
 Install the package with npm (or your package manager):
 
 ```
-npm i @bottom-sticky-scrollbar/react
+npm i react-sticky-scrollbar
 ```
 
 ### Usage
@@ -67,7 +67,7 @@ The React package expose an handy hook.
 
 ```tsx
 import * as React from 'react';
-import { useBottomStickyScrollbar } from '@bottom-sticky-scrollbar/react';
+import { useBottomStickyScrollbar } from 'react-sticky-scrollbar';
 
 function LargeTable() {
   const containerRef = React.useRef<HTMLDivElement>();

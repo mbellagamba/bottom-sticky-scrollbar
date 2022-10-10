@@ -7,7 +7,7 @@ It is a widget that creates a horizontal scrollbar that snaps to the bottom of t
 Install the package with npm (or your package manager):
 
 ```
-npm i @bottom-sticky-scrollbar/core
+npm i sticky-scrollbar
 ```
 
 ### Usage
@@ -15,7 +15,7 @@ npm i @bottom-sticky-scrollbar/core
 Import and mount the component
 
 ```js
-import { mountStickyScrollbar } from '@bottom-sticky-scrollbar/core';
+import { mountStickyScrollbar } from 'sticky-scrollbar';
 
 /*
  Given this HTML

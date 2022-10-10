@@ -1,8 +1,8 @@
 {
-  "name": "bottom-sticky-scrollbar",
+  "name": "sticky-scrollbar",
   "description": "An horizontal scrollbar for large elements that sticks at the bottom of the screen",
-  "version": "0.0.0",
-  "license": "MIT",
+  "version": "0.0.1",
+  "license": "ISC",
   "scripts": {
     "build": "npx nx run-many --target=build --all",
     "test": "npx nx run-many --target=test --all",
